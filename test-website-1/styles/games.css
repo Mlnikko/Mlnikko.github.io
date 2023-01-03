@@ -1,0 +1,145 @@
+.category{
+    height: 130px;
+    width: 250px;
+    margin-left: 200px;
+    top: 100px;
+    animation-name: flyin0;
+    animation-duration: 3s;
+}
+@keyframes flyin0{
+    0%{margin-left: 150px;opacity: 0;}
+    100%{margin-left: 200px;opacity: 1;}
+}
+.mainbox{
+    height: 800px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -3%;
+    display: flex;
+    justify-content: space-between;
+    border: #fa8258 solid 10px;
+    border-bottom: 0;
+    border-top: 0;
+    animation-name: flyin1;
+    animation-duration: 3s;
+}
+@keyframes flyin1{
+     0%{opacity: 0;}
+     100%{opacity: 1;}
+}
+.box1{
+    height: 50%;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.jk0jpg:hover{
+    transform: scale(1.05);
+    transition: 1.25s;
+}
+.text{
+    width: 50%;
+    border: aquamarine solid 2px;
+    margin-right: 30px;
+    animation: flyin3 5s;
+    background-color: rgba(224,255,225,0.32);
+    text-align: center;
+    font-size: x-large;
+    color: #8fc4f8;
+}
+@keyframes flyin3{
+    0%{margin-left: -50px;opacity: 0;}
+    100%{margin-left: 50px;opacity: 1;}
+}
+.picture{
+    width: 30%;
+    border: aquamarine solid 2px;
+    margin-left: 50px;
+    overflow: hidden;
+    animation: flyin2 2s;
+}
+@keyframes flyin2{
+    0%{margin-left: 0;opacity: 0;}
+    10%{margin-left: 0;opacity: 0;}
+    100%{margin-left: 50px;opacity: 1;}
+}
+.box2{
+    height: 100%;
+    width: 60%;
+    float: right;
+    border-top-width: 5px;
+}
+.gamebox{
+    height: 90%;
+    float: right;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    animation: flyin3 5s;
+}
+.game1,.game2,.game3,.game4{
+    height: 170px;
+    width: 500px;
+    margin-right: 30px;
+    overflow: hidden;
+    border: 0 solid rgba(241, 68, 9, 0.82);
+    border-bottom-width: 2px;
+    border-radius: 10px ;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.75);
+    animation-name: flyin3;
+}
+.game1{
+    animation-duration: 2s;
+}
+.game2{
+    animation-duration: 3s;
+}
+.game3{
+    animation-duration: 5s;
+}
+.game4{
+    animation-duration: 7s;
+}
+.arknightpng,.bapng,.genshinpng,.codjpg,.jk0jpg{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+}
+.arknightpng:hover{
+    transform: scale(1.05);
+    transition: 1.25s;
+}
+.bapng:hover{
+    transform: scale(1.05);
+    transition: 1.25s;
+}
+.genshinpng:hover{
+    transform: scale(1.05);
+    transition: 1.25s;
+}
+.codjpg:hover{
+    transform: scale(1.05);
+    transition: 1.25s;
+}
+.zdjpg:hover{
+    transform: scale(1.05);
+    transition: 1.25s;
+}
+p.text1{
+    font-size: x-large;
+    color: #ffb296;
+}
+.colorblock{
+    height: 70px;
+    width: 100%;
+    margin-top: -67px;
+    background-color: #fa8258;
+}
+@keyframes flyin3{
+    0%{margin-right: 60px;opacity: 0}
+    30%{margin-right: 60px;opacity: 0}
+    100%{margin-right: 30px;opacity: 1}
+}

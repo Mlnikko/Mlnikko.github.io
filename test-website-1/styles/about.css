@@ -1,0 +1,82 @@
+.category{
+    height: 130px;
+    width: 250px;
+    margin-left: 200px;
+    top: 100px;
+    animation: flyin0 3s;
+}
+@keyframes flyin0{
+    0%{margin-left: 150px;opacity: 0;}
+    100%{margin-left: 200px;opacity: 1;}
+}
+.mainbox{
+    height: 1000px;
+    width: 80%;
+    margin-top: -3%;
+    margin-left: 10%;
+    border: #8fc4f8 solid 10px;
+    border-top: 0;
+    border-bottom: 0;
+    display: flex;
+}
+.box1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 6%;
+    animation: fly 10s infinite;
+}
+@keyframes fly{
+    0% {top:400px}
+    50%{top: 500px}
+    100%{top: 400px}
+}
+.box2{
+    width: 60%;
+    height: 60%;
+    margin-left: 30%;
+    margin-top: 10px;
+    background-color: rgba(180, 255, 224, 0.32);
+    border: aquamarine solid 2px;
+    border-radius: 0 25px 0 25px;
+    animation: flyin1 3s;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.75);
+}
+@keyframes flyin1{
+     0% {opacity: 0}
+     50% {margin-top:50px;opacity: 0}
+     100% {margin-top:10px;opacity: 1}
+ }
+.pink{
+    height: 100%;
+    width: 25%;
+    float: right;
+    overflow: hidden;
+}
+.pinkpng{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.pinkpng:hover {
+    transform: scale(1.05);
+    transition: 1.25s;
+}
+.colorblock{
+    height: 70px;
+    width: 100%;
+    margin-top: -67px;
+    background-color: #8fc4f8;
+}
+.text1{
+    width: 60%;
+    height: 80%;
+    margin-left: 7%;
+    margin-top: 5%;
+    font-size: x-large;
+    color: dodgerblue;
+    text-align: center;
+}

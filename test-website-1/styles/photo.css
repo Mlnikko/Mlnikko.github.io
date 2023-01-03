@@ -1,0 +1,92 @@
+.category{
+    height: 130px;
+    width: 250px;
+    margin-left: 200px;
+    top: 100px;
+    animation: flyin0 3s;
+}
+@keyframes flyin0{
+    0%{margin-left: 150px;opacity: 0;}
+    100%{margin-left: 200px;opacity: 1;}
+}
+.colorblock{
+    height: 70px;
+    width: 100%;
+    margin-top: -67px;
+    background-color: #8fc4f8;
+}
+.mainbox{
+    height: 1000px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -3%;
+    display: flex;
+    border: #8fc4f8 solid 10px;
+    border-bottom: 0;
+    border-top: 0;
+    animation: fadein1 3s;
+}
+@keyframes fadein1{
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+.photobox{
+    width: 95%;
+    display: flex;
+}
+.photo1,.photo2,.photo3,.photo4,.photo5{
+    height: 50%;
+    width: 15%;
+    margin-top: 7%;
+    margin-left: 5%;
+    overflow: hidden;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.75);
+    border: aquamarine solid 2px;
+    border-radius: 0 25px 0 25px;
+    animation-name: flyin1;
+}
+.catjpg,.girljpg,.birdjpg,.girl3jpg,.lmjpg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.catjpg:hover{
+    transform: scale(1.05);
+    transition: 1.25s;
+}
+.girljpg:hover{
+    transform: scale(1.05);
+    transition: 1.25s;
+}
+
+.birdjpg:hover{
+    transform: scale(1.05);
+    transition: 1.25s;
+}
+.girl3jpg:hover{
+    transform: scale(1.05);
+    transition: 1.25s;
+}
+.lmjpg:hover{
+    transform: scale(1.05);
+    transition: 1.25s;
+}
+.photo1{
+    animation-duration: 1s;
+}
+.photo2{
+    animation-duration: 2s;
+}
+.photo3{
+    animation-duration: 3s;
+}
+.photo4{
+    animation-duration: 4s;
+}
+.photo5{
+    animation-duration: 5s;
+}
+@keyframes flyin1{
+    0%{margin-right: 100px;opacity: 0;}
+    100%{margin-right: 0;opacity: 1;}
+}
